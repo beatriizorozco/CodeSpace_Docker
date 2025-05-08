@@ -9,6 +9,8 @@ Docker es una herramienta que permite empaquetar una aplicaci¢n y todas sus dep
 ### 1. Construir una imagen
 ```bash
 docker build -t nombre-de-la-imagen .
+```
 ### 2. Ejecutar un contenedor
 ```bash
 docker run -p 8000:8000 nombre-imagen
+```
